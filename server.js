@@ -51,7 +51,8 @@ const emotionEmojis = {
 
 function simulateEmotionPrediction() {
   const emotion = emotions[Math.floor(Math.random() * emotions.length)];
-  const confidence = 0.7 + Math.random() * 0.3; // 70-100% confidence
+  // Updated confidence range to reflect realistic 78.5% accuracy
+  const confidence = 0.6 + Math.random() * 0.25; // 60-85% confidence
   
   // Generate probabilities for all emotions
   const probabilities = {};
@@ -81,7 +82,7 @@ app.get('/', (req, res) => {
 app.get('/api/stats', (req, res) => {
   res.json({
     totalPredictions: Math.floor(Math.random() * 1000) + 500,
-    accuracy: '94.2%',
+    accuracy: '78.5%',
     modelVersion: 'v2.1.0',
     supportedEmotions: emotions.length
   });
