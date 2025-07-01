@@ -82,9 +82,9 @@ function animateCounter(elementId, finalValue) {
                 clearInterval(timer);
             }
             
-            if (finalValue.includes('%')) {
+            if (String(finalValue).includes('%')) {
                 element.textContent = Math.floor(current) + '%';
-            } else if (finalValue.includes(',')) {
+            } else if (String(finalValue).includes(',')) {
                 element.textContent = Math.floor(current).toLocaleString();
             } else {
                 element.textContent = Math.floor(current);
