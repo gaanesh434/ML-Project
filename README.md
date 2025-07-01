@@ -64,7 +64,7 @@ Deploy on Python Anywhere: [Python Anywhere](https://www.pythonanywhere.com/)
 
 2. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   python -m pip install -r requirements.txt
    ```
 
 3. **Run the application**
@@ -86,7 +86,7 @@ Deploy on Python Anywhere: [Python Anywhere](https://www.pythonanywhere.com/)
 #### Python Anywhere
 1. Upload your files to Python Anywhere
 2. Set up a web app with Python 3.7+
-3. Install requirements: `pip3.7 install --user -r requirements.txt`
+3. Install requirements: `python -m pip install --user -r requirements.txt`
 4. Configure WSGI file to run Streamlit
 
 #### Heroku
