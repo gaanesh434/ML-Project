@@ -39,15 +39,13 @@ app.use(express.static('public'));
 app.use('/uploads', express.static('uploads'));
 app.use(express.json());
 
-// Emotion prediction simulation
-const emotions = ['Happy', 'Sad', 'Angry', 'Surprise', 'Fear', 'Disgust', 'Neutral'];
+// Emotion prediction simulation - Updated to 5 emotions
+const emotions = ['Happy', 'Sad', 'Angry', 'Surprise', 'Neutral'];
 const emotionEmojis = {
   'Happy': '😊',
   'Sad': '😢',
   'Angry': '😠',
   'Surprise': '😲',
-  'Fear': '😨',
-  'Disgust': '🤢',
   'Neutral': '😐'
 };
 
