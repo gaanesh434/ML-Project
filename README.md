@@ -26,10 +26,6 @@ A sophisticated web application built with Streamlit that uses artificial intell
 - **Multiple File Formats**: Support for JPG, PNG, GIF, WebP
 - **Detailed Results**: Emotion confidence and probability breakdowns
 
-## 🚀 Live Demo
-
-Deploy on Streamlit Cloud: [Streamlit Cloud](https://streamlit.io/cloud)
-Deploy on Python Anywhere: [Python Anywhere](https://www.pythonanywhere.com/)
 
 ## 🛠️ Technology Stack
 
